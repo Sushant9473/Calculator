@@ -1,0 +1,70 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+.row div {
+  flex: 1;
+  border: 1px solid black;
+  height: 50px;
+  text-align: center;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7%;
+  background-color: white;
+}
+
+.row div:hover{
+    background-color:rgb(201, 200, 200);
+}
+
+#f1 {
+  background-color: rgb(242, 125, 116);
+  /* hover 240, 84, 72 */
+}
+
+#f1:hover {
+  background-color: rgb(240, 84, 72);
+}
+
+#f2 {
+  background-color: #77baed;
+}
+
+#f2:hover {
+  background-color: #3b9fe0;
+}
+
+.display {
+    display: flex;
+    
+  height:100px;
+  border: 1px solid black;
+  border-radius: 3%;
+  background-color: white;
+}
+
+.main {
+  width: 20%;
+  padding: 40px 20px;
+  border: 1px solid black;
+  border-radius: 3%;
+  background-color: grey;
+}
+
+.main {
+  margin: auto;
+  margin-top: 200px;
+}
+
+.display_number{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
